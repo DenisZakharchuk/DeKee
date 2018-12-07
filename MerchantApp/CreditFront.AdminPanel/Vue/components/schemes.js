@@ -1,7 +1,7 @@
 ﻿
 Vue.component("schemes", {
     template: '#schemes-template',
-    props: ['selecteditem', 'password'],
+    props: ['password'],
     data: function () {
         return {
             error: '',
@@ -29,14 +29,17 @@ Vue.component("schemes", {
                 });
         },
         editScheme: function (item) {
-            console.log(item);
+            //console.log(item);
             console.log(item.Id);
+            this.$root.$emit('itemSelected', item);
             //this.selecteditem = item;
 
             //window.location.replace("/Cabinet/SchemeDetails/" + item.id);
         },
-        deleteScheme: function (id) {
-            window.location.replace("/Cabinet/SchemeDetails/" + id);
+        deleteScheme: function (item) {
+            //window.location.replace("/Cabinet/SchemeDetails/" + id);
+            console.log("deleting " + item.Id);
+            this.$root.$emit('itemDelete', item);
         }   
         
     },

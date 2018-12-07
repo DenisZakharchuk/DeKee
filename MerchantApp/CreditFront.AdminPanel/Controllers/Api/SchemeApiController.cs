@@ -80,6 +80,31 @@ namespace CreditFront.AdminPanel.Controllers.Api
                         }
 
                     }).ToList()
+                }, new CustomDataScheme()
+                {
+                    Code = "2",
+                    Id = "2",
+                    Name = "IdentityDocument 2",
+                    DateCreated = DateTime.Now,
+                    Properties = (new[]{
+                        new CustomDataProperty(){
+                            Code ="title",
+                            Name = "Titleshche",
+                            MaxLength = 100,
+                            MinLength = 0,
+                            Required = false,
+                            Type = typeof(string).Name
+                        },
+                        new CustomDataProperty(){
+                            Code ="body",
+                            Name = "Body 2",
+                            MaxLength = 100,
+                            MinLength = 0,
+                            Required = false,
+                            Type = typeof(string).Name
+                        }
+
+                    }).ToList()
                 }
             });
         }

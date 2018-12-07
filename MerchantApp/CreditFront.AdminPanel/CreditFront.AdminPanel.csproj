@@ -329,6 +329,7 @@
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Scripts\vue.js" />
     <Content Include="Scripts\vue.min.js" />
+    <Content Include="Vue\components\deleteScheme.js" />
     <Content Include="Vue\components\schemeDetails.js" />
     <Content Include="Vue\components\schemes.js" />
     <Content Include="Vue\components\data.js" />
@@ -336,6 +337,7 @@
     <Content Include="Vue\components\login.js" />
     <Content Include="Vue\components\tile.js" />
     <Content Include="Vue\main\app.js" />
+    <Content Include="Vue\templates\components\deletescheme.html" />
     <Content Include="Vue\templates\components\schemeDetails.html" />
     <Content Include="Vue\templates\components\schemes.html" />
     <Content Include="Vue\templates\components\data.html" />

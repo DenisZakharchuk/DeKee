@@ -2,26 +2,28 @@
     <div>
         <div class="col-sm-12">
             <div class="input-group">
-                <input style="width:85%" class="form-control" type="text" v-model="selecteditem.Name" v-on:keyup.enter="getItems" />
-                <button type="button" class="btn btn-secondary form-control" v-on:load="getItems" v-on:click="getItems">Go!</button>
+                <input class="form-control" type="text" v-on:keyup.enter="getItems" placeholder="search..." />
+                <button type="button" class="btn btn-secondary form-control sm" v-on:load="getItems" v-on:click="getItems">Go!</button>
+                <button type="button" class="btn btn-primary form-control sm" v-on:load="getItems" v-on:click="getItems">+</button>
             </div>
         </div>
         <div class="col-sm-12">
             <table class="table table-responsive-md table-borderless">
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Code</th>
-                        <th>Action</th>
+                        <th>Schemes</th>
+                        <!--<th></th>-->
                     </tr>
                 </thead>
                 <tbody>
                     <tr v-for="item in items">
-                        <td>{{item.Name}}</td>
-                        <td>{{item.Code}}</td>
                         <td>
-                            <a class="btn btn-outline-secondary" v-on:click="$emit('editscheme', item)">Edit</a>
-                            <a class="btn btn-outline-secondary" v-on:click="deleteScheme(item.Id)">Delete</a>
+                            <div class="input-group">
+                                <a class="btn btn-outline-light form-control" v-on:click="editScheme(item)">
+                                    {{item.Name}} ({{item.Code}})
+                                </a>
+                                <button class="btn btn-outline-danger form-control sm" v-on:click="deleteScheme(item)">x</button>
+                            </div>
                         </td>
                     </tr>
                 </tbody>

@@ -51,3 +51,14 @@ C:\develop\Omicron\git\MerchantApp\src\PlainElastic.Net\obj\Debug\PlainElastic.N
 C:\develop\Omicron\git\MerchantApp\src\PlainElastic.Net\obj\Debug\PlainElastic.Net.csproj.CopyComplete
 C:\develop\Omicron\git\MerchantApp\src\PlainElastic.Net\obj\Debug\PlainElastic.Net.dll
 C:\develop\Omicron\git\MerchantApp\src\PlainElastic.Net\obj\Debug\PlainElastic.Net.pdb
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\bin\Debug\Net40\PlainElastic.Net.XML
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\bin\Debug\Net40\PlainElastic.Net.dll
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\bin\Debug\Net40\PlainElastic.Net.pdb
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\bin\Debug\Net40\Newtonsoft.Json.dll
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\bin\Debug\Net40\Newtonsoft.Json.pdb
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\bin\Debug\Net40\Newtonsoft.Json.xml
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\obj\Debug\PlainElastic.Net.csprojAssemblyReference.cache
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\obj\Debug\PlainElastic.Net.csproj.CoreCompileInputs.cache
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\obj\Debug\PlainElastic.Net.csproj.CopyComplete
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\obj\Debug\PlainElastic.Net.dll
+C:\develop\Omicron\github\MerchantApp\src\PlainElastic.Net\obj\Debug\PlainElastic.Net.pdb

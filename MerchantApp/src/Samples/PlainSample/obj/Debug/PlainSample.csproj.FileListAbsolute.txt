@@ -87,3 +87,16 @@ C:\develop\Omicron\git\MerchantApp\src\Samples\PlainSample\obj\Debug\PlainSample
 C:\develop\Omicron\git\MerchantApp\src\Samples\PlainSample\obj\Debug\PlainSample.csproj.CopyComplete
 C:\develop\Omicron\git\MerchantApp\src\Samples\PlainSample\obj\Debug\PlainSample.dll
 C:\develop\Omicron\git\MerchantApp\src\Samples\PlainSample\obj\Debug\PlainSample.pdb
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\bin\Debug\PlainSample.dll
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\bin\Debug\PlainSample.pdb
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\bin\Debug\Newtonsoft.Json.dll
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\bin\Debug\PlainElastic.Net.dll
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\bin\Debug\PlainElastic.Net.pdb
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\bin\Debug\PlainElastic.Net.xml
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\bin\Debug\Newtonsoft.Json.pdb
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\bin\Debug\Newtonsoft.Json.xml
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\obj\Debug\PlainSample.csprojAssemblyReference.cache
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\obj\Debug\PlainSample.csproj.CoreCompileInputs.cache
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\obj\Debug\PlainSample.csproj.CopyComplete
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\obj\Debug\PlainSample.dll
+C:\develop\Omicron\github\MerchantApp\src\Samples\PlainSample\obj\Debug\PlainSample.pdb

@@ -27,3 +27,7 @@ textarea {
     margin-top: 0.7em;
     margin-bottom: 0.3em;
 }
+
+    .form-control.sm {
+        max-width: 10%
+    }

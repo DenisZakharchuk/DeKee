@@ -1,7 +1,7 @@
 ﻿
 Vue.component("schemedetails", {
     template: '#schemeDetails-template',
-    props: ['itemid', 'schemeitem'],
+    props: ['itemid'],
     data: function () {
         return {
             error: '',            
@@ -34,7 +34,14 @@ Vue.component("schemedetails", {
                 this.getItem(this.schemeitem.Id);
         }
         else {
-            item = { Id: this.schemeitem.Id, Name: this.schemeitem.Name };
+            //item = { Id: this.schemeitem.Id, Name: this.schemeitem.Name };
         }
+
+    },
+    mounted() {
+        this.$root.$on('itemSelected', _item => {
+            //console.log(_item);
+            this.getItem(_item.Id);
+        });
     }
 });

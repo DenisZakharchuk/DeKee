@@ -1,18 +1,17 @@
 ﻿<template id="schemeDetails-template">
-    <div>
+    <div v-if="item && item.Id">
         <!--<div class="row">
-            <div class="col-sm-12">
-                <div class="input-group">
-                    <input style="width:100%" class="form-control" type="text" v-model="searchQuery" v-on:keyup.enter="getItems" />
-                    <button type="button" class="btn btn-secondary form-control" v-on:load="getItems" v-on:click="getItems">Search ></button>
-                </div>
+        <div class="col-sm-12">
+            <div class="input-group">
+                <input style="width:100%" class="form-control" type="text" v-model="searchQuery" v-on:keyup.enter="getItems" />
+                <button type="button" class="btn btn-secondary form-control" v-on:load="getItems" v-on:click="getItems">Search ></button>
             </div>
-        </div>-->
-            <!--<h1>{{schemeitem}}</h1>-->
+        </div>
+    </div>-->
+        <!--<h1>{{schemeitem}}</h1>
+        <h1>{{item.Name}}</h1>-->
         <div class="col-lg-12">
-            <h1>{{item.Id}}</h1>
-            <h2>{{item.Name}}</h2>
-            <h2>{{item.Code}}</h2>
+            <h2>{{item.Name}} ({{item.Code}})</h2>
             <table v-if="item.Properties" class="table table-responsive-md">
                 <thead>
                     <tr>
@@ -35,6 +34,6 @@
                     </tr>
                 </tbody>
             </table>
-        </div>        
+        </div>
     </div>
 </template>
