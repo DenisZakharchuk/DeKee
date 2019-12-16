@@ -6,9 +6,7 @@ namespace DeKee.Dao.Migrations
     public partial class initial : DbMigration
     {
         public override void Up()
-        {
-            Down();
-            return;
+        {   
             CreateTable(
                 "dbo.Transfers",
                 c => new
